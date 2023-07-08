@@ -7,4 +7,5 @@ function Home() {
 
 export default Home;
 
-
+const local = process.env.local_level;
+console.log(local);
