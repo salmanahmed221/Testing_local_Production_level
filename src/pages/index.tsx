@@ -1,4 +1,4 @@
-
+"use client"
 function Home() {
   return <div style={{ textAlign: "center", fontSize: "25px", backgroundColor: "red" }}>
     Home Page
@@ -6,3 +6,5 @@ function Home() {
 }
 
 export default Home;
+
+
