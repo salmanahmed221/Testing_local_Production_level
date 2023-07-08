@@ -19,7 +19,5 @@ function Home() {
 
 export default Home;
 
-const url = process.env.NEXT_PUBLIC_URL;
-const name = process.env.NEXT_PUBLIC_NAME;
+const url = process.env.NEXT_PUBLIC_DEVELOPEMENT_URL;
 console.log("url:", url);
-console.log("name:", name);
